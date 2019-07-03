@@ -43,7 +43,7 @@ export default {
     menuItems () {
       let menuItems = [
         {
-          icon: 'fas fa-user',
+          icon: 'fas fa-map-marked-alt',
           title: 'Map',
           link: '/map'
         }

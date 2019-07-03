@@ -25,17 +25,16 @@
         <div class="restaurant-image-wrapper">
   				<img class="restaurant-image" v-bind:src="restaurant.image">
   				<div class="gradient-overlay"></div>
-  				<!-- <div class="circle"> -->
   					<span class="restaurant-title">{{restaurant.name}}</span>
-  				<!-- </div> -->
+            <p>Rating: {{ restaurant.rating }}</p>
   			</div>
-          {{ restaurant.contact.site }} <br>
-          {{ restaurant.contact.email }} <br>
-          {{ restaurant.contact.phone }}
+          <p>Site: {{ restaurant.contact.site }} <br>
+          email: {{ restaurant.contact.email }} <br>
+          Phone: {{ restaurant.contact.phone }} </p>
         <h4>Address</h4>
-          {{ restaurant.address.street }} <br>
-          {{ restaurant.address.city }} <br>
-          {{ restaurant.address.state }} <br>
+          <p>Street: {{ restaurant.address.street }} <br>
+          City: {{ restaurant.address.city }} <br>
+          State: {{ restaurant.address.state }} </p>
         </div>
     </transition-group>
   </div>

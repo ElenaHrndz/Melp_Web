@@ -31,12 +31,9 @@
 </template>
 
 <script>
-import Restaurants from './components/Restaurants'
+
 export default {
   name: 'App',
-  components: {
-    Restaurants
-  },
   data () {
     return {
       sideNav: null

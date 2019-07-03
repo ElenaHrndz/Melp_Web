@@ -32,6 +32,10 @@
           {{ restaurant.contact.site }} <br>
           {{ restaurant.contact.email }} <br>
           {{ restaurant.contact.phone }}
+        <h4>Address</h4>
+          {{ restaurant.address.street }} <br>
+          {{ restaurant.address.city }} <br>
+          {{ restaurant.address.state }} <br>
         </div>
     </transition-group>
   </div>
@@ -150,8 +154,8 @@ font-size:16pt
  margin:10px;
  box-shadow:0px 2px 8px lightgrey;
  border-radius:18px;
- width:250px;
- height:300px;
+ width:300px;
+ height:400px;
  display:flex;
  flex-direction:column;
  align-items:center;

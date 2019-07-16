@@ -10,6 +10,12 @@ export default new Router({
       path: '/',
       name: 'Restaurants',
       component: Restaurants
+    },
+    {
+      path: '/maps',
+      name: 'maps',
+      component: () =>
+      import('../components/Maps.vue')
     }
   ]
 })
